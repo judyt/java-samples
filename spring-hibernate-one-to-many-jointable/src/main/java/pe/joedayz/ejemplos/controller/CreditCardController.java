@@ -57,7 +57,7 @@ public class CreditCardController {
 		creditCardService.add(personId, creditCard);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
     
     
@@ -73,7 +73,7 @@ public class CreditCardController {
 		creditCardService.delete(creditCardId);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
    
     /**
@@ -110,6 +110,6 @@ public class CreditCardController {
 		creditCardService.edit(creditCard);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
 }
