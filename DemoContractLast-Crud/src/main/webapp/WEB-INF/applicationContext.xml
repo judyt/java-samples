@@ -19,6 +19,7 @@
 
 	<bean id="movieWebService"
 		class="pe.joedayz.ejemplos.apachecxf.jaxws.MovieWebServiceImpl" />
+		
 
 	<jaxws:endpoint id="movieEndpoint" implementor="#movieWebService"
 		address="/movies" />

@@ -22,6 +22,7 @@ public class MovieWebServiceImpl implements MovieWebService {
 	 * Bean configurado por Spring, est‡ en el proyecto demo-spring-jdbc-crud
 	 * configurado en el pom.xml
 	 */
+	
 	@Autowired
 	private MovieService movieService;
 
