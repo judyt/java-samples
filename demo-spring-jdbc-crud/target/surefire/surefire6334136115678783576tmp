@@ -1,0 +1,5 @@
+#surefire
+#Wed Jun 27 20:34:48 PET 2012
+user.dir=/Users/josediaz/Documents/github-java-samples/java-samples/demo-spring-jdbc-crud
+localRepository=/Users/josediaz/.m2/repository
+basedir=/Users/josediaz/Documents/github-java-samples/java-samples/demo-spring-jdbc-crud

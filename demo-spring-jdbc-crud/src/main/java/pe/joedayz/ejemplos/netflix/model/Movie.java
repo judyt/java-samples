@@ -15,6 +15,7 @@ public class Movie implements Serializable{
 
 	/**
 	 * 
+	 * 
 	 */
 	private static final long serialVersionUID = 6356059940778649777L;
 	
