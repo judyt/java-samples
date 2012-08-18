@@ -10,4 +10,9 @@
 
 
 
+	<bean id="notaService" class="com.mycompany.calculonotas.service.NotaServiceImpl" />
+	
+	<jaxws:endpoint id="notaServiceEndpoint" implementor="#notaService"
+		address="/NotaService" />
+
 </beans>
