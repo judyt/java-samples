@@ -5,6 +5,6 @@
 	
      <jaxws:client id="notaServiceClient" serviceName="NotaServiceImpl"
       serviceClass="com.mycompany.calculonotas.service.NotaService" 
-      address="http://localhost:8080/consultanotas/NotaService" />
+      address="http://localhost:8080/calculonotas/NotaService" />
           
 </beans>
