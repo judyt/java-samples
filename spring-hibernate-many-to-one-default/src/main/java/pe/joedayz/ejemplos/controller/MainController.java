@@ -90,7 +90,7 @@ public class MainController {
 		personService.add(person);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
     
     /**
@@ -107,7 +107,7 @@ public class MainController {
 		personService.delete(personId);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
     
     /**
@@ -142,7 +142,7 @@ public class MainController {
 		personService.edit(person);
 
 		// Redirect to url
-		return "redirect:/krams/main/record/list";
+		return "redirect:/joedayz/main/record/list";
 	}
     
 }

@@ -23,7 +23,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ClienteHolaMundoTest {
 
     @Autowired
-    private HolaMundo instance = new HolaMundoImpl();
+    private HolaMundo instance = null;
 
     /**
      * Test of decirHola method, of class HolaMundo.
